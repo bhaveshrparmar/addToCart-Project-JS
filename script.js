@@ -15,7 +15,11 @@ addItemForm.addEventListener('submit', (e) => {
     let id = addArray.length + 1;
 
     const obj = {
-        id, productName, productPrice, productUrl, category
+        id,
+        productName,
+        productPrice,
+        productUrl,
+        category
     }
 
     addArray.push(obj);
